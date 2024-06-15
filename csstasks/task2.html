@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li.horizontal {
+  float: left;
+}
+
+li.horizontal a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: rgb(200, 200, 200);
+}
+
+li.horizontal a:hover {
+  background-color: grey;
+  color: white;
+}
+
+ul.vertical {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: skyblue;
+  color: blue;
+}
+
+li.vertical a {
+  display: block;
+  color: blue;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li.vertical a:hover {
+  background-color: orange;
+  color: white;
+  
+}
+</style>
+</head>
+<body>
+
+<h4>Vertical Navigation Bar</h4>
+<nav>
+<ul class="vertical">
+  <li class="vertical"><a href="#home">Home</a></li>
+  <li class="vertical"><a href="#java">Java</a></li>
+  <li class="vertical"><a href="#css">CSS</a></li>
+  <li class="vertical"><a href="#html">HTML</a></li>
+  <li class="vertical"><a href="#bootstrap">Bootstrap</a></li>
+</ul>
+</nav>
+<h4>Horizontal Navigation Bar</h4>
+<nav>
+    <ul class="horizontal">
+        <li class="horizontal"><a href="#home">Home</a></li>
+        <li class="horizontal"><a href="#java">Java</a></li>
+        <li class="horizontal"><a href="#html">HTML</a></li>
+        <li class="horizontal"><a href="#css">CSS</a></li>
+        <li class="horizontal"><a href="#bootstrap">Bootstrap</a></li>
+      </ul>
+      
+</nav>
+</body>
+</html>
